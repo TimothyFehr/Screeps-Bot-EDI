@@ -13,7 +13,7 @@
     "push-sim": "rollup -c --environment DEST:sim",
     "test": "npm run test-unit",
     "test-unit": "mocha test/unit/**/*.ts",
-    "test-integration": "echo 'See docs/in-depth/testing.md for instructions on enabling integration tests'",
+    "test-integration": "echo 'See https://screepers.gitbook.io/screeps-typescript-starter/in-depth/testing for instructions on enabling integration tests'",
     "watch-main": "rollup -cw --environment DEST:main",
     "watch-pserver": "rollup -cw --environment DEST:pserver",
     "watch-season": "rollup -cw --environment DEST:season",
@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/screepers/screeps-typescript-starter.git"
+    "url": "git+https://github.com/TimothyFehr/Screeps-Bot-EDI.git"
   },
-  "author": "",
+  "author": "Timothy Fehr",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/screepers/screeps-typescript-starter/issues"
+    "url": "https://github.com/TimothyFehr/Screeps-Bot-EDI/issues"
   },
-  "homepage": "https://github.com/screepers/screeps-typescript-starter#readme",
+  "homepage": "https://github.com/TimothyFehr/Screeps-Bot-EDI#readme",
   "engines": {
     "node": "10.x || 12.x"
   },
@@ -51,8 +51,8 @@
     "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-prettier": "^3.4.0",
-    "lodash": "^3.10.1",
-    "mocha": "^5.2.0",
+    "lodash": "^4.17.21",
+    "mocha": "^10.2.0",
     "prettier": "^2.3.2",
     "rollup": "^2.56.2",
     "rollup-plugin-clear": "^2.0.7",
