@@ -25,6 +25,8 @@ declare global {
   namespace NodeJS {
     interface Global {
       log: any;
+      Memory: {creeps: {[p: string]: any}};
+      Game: {creeps: {[p: string]: any}, rooms: any, spawns: any, time: any};
     }
   }
 }
